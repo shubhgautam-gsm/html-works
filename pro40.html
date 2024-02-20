@@ -4,15 +4,23 @@
 table ,th,td{
   border:1px solid aqua;
   text-align: center;
-  border-collapse: collapse;
-
+}
+th,td{
+    border-radius: 120px; 
+    width: 30px;  
+}
+th:hover,td:hover{
+    background-color: black;
+    color: aliceblue;   
 }
 table{
     width: 100%;
 }
-.sp{
+tr:nth-child(odd){
     background-color: aqua;
+    border-radius: 120px;
 }
+
 </style>
 <body>
 
@@ -26,7 +34,7 @@ table{
         <th>uid</th>
     </tr>
     
-    <tr  class="sp">
+    <tr>
         <td>jay</td>
         <td>12</td>
         <td>33333333</td>
@@ -38,7 +46,19 @@ table{
         <td>33333333</td>
         <td>34dwd</td>
     </tr>    
-    <tr class="sp">
+    <tr>
+        <td>jay</td>
+        <td>12</td>
+        <td>33333333</td>
+        <td>34dwd</td>
+    </tr>
+    <tr>
+        <td>jay</td>
+        <td>12</td>
+        <td>33333333</td>
+        <td>34dwd</td>
+    </tr>
+    <tr>
         <td>jay</td>
         <td>12</td>
         <td>33333333</td>
